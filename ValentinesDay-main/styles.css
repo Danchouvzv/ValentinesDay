@@ -1,0 +1,66 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(250, 254, 254);
+}
+.free-space {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(250, 254, 254);
+}
+.header-items{
+    background-color: rgb(250, 254, 254);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    text-align: center;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.no-btn,.yes-btn:hover{
+    cursor:pointer;
+}
+.no-btn,.yes-btn{
+    width: 10vh;
+    height: 5vh;
+    color: whitesmoke;
+    border: 1px white solid;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.yes-btn-position{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 120px;
+}
+.yes-btn{
+    top: 50px;
+    right: 100px;
+    background-color: green;
+    font-size: 20px;
+    position: relative;
+}
+.no-btn {
+    position: absolute;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: red;
+}
+.yippie{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.header-items-yippie{
+    justify-content: center;
+    
+}
+.yippie-gif{
+    width: 200px;
+    height: 200px;
+}
+
